@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="head">
+            <h1>To-Do List</h1>
+
+            <form action="">
+                <div id="taskform">
+                    <label for="task">Add New Task</label>
+                    <div id="inp">
+                        <input type="text" id="task" placeholder="Write Something.......">
+                        <button id="add" type="submit">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </header>
+
+    <section>
+        <div id="main">
+            <div id="details">
+                <div id="text">
+                    <p>
+                    <pre>Keep it up!<br>Complete all tasks.</pre>
+                    </p>
+                </div>
+                <div id="progress">
+                    <div id="bar">
+                        <div id="fill"></div>
+                    </div>
+                    <div id="score">
+                        <p id="ratio">0/0</p>
+                    </div>
+                </div>
+            </div>
+            <div id="list">
+                <ul id="uol">list</ul>
+            </div>
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
